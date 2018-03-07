@@ -1,19 +1,57 @@
 /*** landing page css ***/
 
-body {
+body {background-color: #000000;
+background-image: -webkit-linear-gradient(190deg, #000000 50%, #CF0808 35%);
+min-height: 200px;
+
 }
 
 h1 {
-    
+
 }
 
-.narc {
+.narc {color: #fff;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: justify;
 }
 
-.mach {
+.mach {color: #fff;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: justify;
 }
 
-.psych {
+.psych {color: #fff;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: justify;
+}
+
+.quest {
+  color: #fff;
+}
+
+button {
+  background-color: white;
+      border: 2px solid red;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      float: right;
+      margin: 200px;
+}
+
+button:hover {
+  background-color: red;
+  color: #fff;
+  transition-duration: 0.4s;
 }
 
 
