@@ -4,14 +4,14 @@
     codes to link to it.
 
     *************************************************************************/
-    var QUIZ_URL = "quiz.html";
+    var QUIZ_URL = "/quiz.html";
 
     /*************************************************************************
     This should be the full address to whatever folder on your website
     directly contains your result images, ending in a forward slash.
 
     *************************************************************************/
-    var RESULTS_FOLDER_URL = "results/";
+    var RESULTS_FOLDER_URL = "/results";
 
     /*************************************************************************
     The pairs between brackets should be the names of personality traits that
@@ -215,3 +215,5 @@
 Free quiz script from The Cave of Dragonflies:
 http://www.dragonflycave.com/free-quiz-scripts
 *************************************************************************/
+
+/****quiz transition script ****/
