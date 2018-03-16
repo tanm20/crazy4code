@@ -1,0 +1,34 @@
+body {
+  background-color: Black;
+  color: red;
+  font-size: 30px;
+  text-align: justify;
+  padding-left: 10px;
+  font-family: 'Shadows Into Light', cursive;
+
+}
+h4 {
+font-size: 25px;
+color: white;
+font-style: italics;
+text-align: center;
+}
+h1 {
+  font-family: 'Creepster', cursive;
+  font-size: 50px;
+  text-align: center;
+}
+button[type="submit"]{
+  color: black;
+  background: white;
+  border-color: red;
+  padding: 15px 32px;
+  display:inline-block;
+  font-size: 16px
+  float:right;
+  margin: 100px;
+}
+button:hover {
+  background-color: red;
+  transition-duration: 0.4s;
+}
