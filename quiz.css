@@ -5,13 +5,14 @@ body {
   text-align: justify;
   padding-left: 10px;
   font-family: 'Shadows Into Light', cursive;
-
+font-family: 'Nothing You Could Do', cursive;
 }
 h4 {
 font-size: 25px;
 color: white;
 font-style: italics;
 text-align: center;
+font-family: 'Nothing You Could Do', cursive;
 }
 h1 {
   font-family: 'Creepster', cursive;
