@@ -2,8 +2,12 @@
 <html>
 <head>
 <title>What's your darkside?</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="quiz.css">
-</head>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 <body>
   <h1>What's your darkside?</h1>
 <form name="quizform">
@@ -73,13 +77,19 @@
 <li><label><input type="radio" name="q9" value="trait3"> I'll say anything to get what I want.</label></li>
 </ul>
 
-<p><center><button type="submit">Submit</button></center></p>
-
+<p><center><button type="submit" href="#results">Get Results</button></center></p>
+<div class="result">
 <div id="result_div" style="display:none;">
 <img id="result_image" alt="">
 <p id="result_text"></p>
-
 </div>
+</div>
+
+<div class=footer>
+<p> <a href="result_text" class="btn btn-success btn-lg" style="color:white;">
+  <span class="glyphicon glyphicon-print" style="color:white;"></span> Print Result </a> </p>
+</div>
+
 </form>
 <script src="quiz.js"></script>
 </body>

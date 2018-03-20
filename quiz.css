@@ -1,7 +1,7 @@
 body {
   background-color: Black;
   color: red;
-  font-size: 30px;
+  font-size: 20px;
   text-align: justify;
   padding-left: 10px;
   font-family: 'Shadows Into Light', cursive;
@@ -31,5 +31,21 @@ button[type="submit"]{
 }
 button:hover {
   background-color: red;
-  transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
+
+.result {border: 1px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  background-color: ##000000;
+  text-align: center;
+  padding: 25px;}
+
+.footer{margin-left:auto;}
+.btn {background-color:red;margin:auto;}
+.btn-success{background-color:red; border-color:red; padding:3px; }
+.btn-lg {color:white}
+.glyphicon {color:white}
+.btn {color:white}
+.glyphicon-print {color:white}
