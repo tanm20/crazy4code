@@ -1,15 +1,11 @@
 /*** landing page css ***/
 
-body {
+#landingbody {
   background-color: #000000;
   background-image: -webkit-linear-gradient(150deg, #000000 50%, #CF0808 35%);
   max-height: 200px;
-
 }
 
-h1 {
-
-}
 #ncircle {
   border-radius: 50%;
   width: 175px;
@@ -96,7 +92,7 @@ h1 {
   margin-left: 10px;
 }
 
-button {
+#button1 {
       background-color: white;
       border-radius: 50%;
       width: 100px;
@@ -112,7 +108,7 @@ button {
       left: 950px;
 }
 
-button:hover {
+#button1:hover {
   background-color: #CF0808;
   color: #fff;
   transition-duration: 0.4s;
@@ -120,36 +116,65 @@ button:hover {
 
 
 /*** quiz page css ***/
+#quizbody {
+  background-color: black;
+}
+
 #result_div{
-
+  max width: 250px;
+  margin-top: 200px;
+  margin-left: 75px;
 }
+
 #result_img{
-
+  max-width: 250px;
 }
+
 #result_text{
-
+  color: white;
+  max-width: 250px;
+  text-align: center;
 }
 
-h4 {font-size: 25px;
+h4 {font-size: 20px;
 color: white;
-font-style: italics;
-text-align: Left;
-font-family: 'Nothing You Could Do', cursive;
+font-family: 'Open Sans Condensed', sans-serif;
+text-transform: uppercase;
+margin-left: 50px;
 }
 
 h1 {
   font-family: 'Creepster', cursive;
   font-size: 50px;
   text-align: center;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #ffffff;
   letter-spacing: 20px;
+  color: red;
 }
 
-h3  {
-font-size: 25px;
-color: white;
-font-style: italics;
-text-align: center;
-font-family: 'Nothing You Could Do', cursive
+ul {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: white;
 }
 
+#button2 {
+      background-color: white;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      position: absolute;
+      top: 1450px;
+      left: 650px;
+}
+
+#button2:hover {
+  background-color: #CF0808;
+  color: #fff;
+  transition-duration: 0.4s;
+}
