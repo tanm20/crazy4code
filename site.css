@@ -1,55 +1,119 @@
 /*** landing page css ***/
 
-body {background-color: #000000;
-background-image: -webkit-linear-gradient(190deg, #000000 50%, #CF0808 35%);
-min-height: 200px;
+body {
+  background-color: #000000;
+  background-image: -webkit-linear-gradient(150deg, #000000 50%, #CF0808 35%);
+  max-height: 200px;
 
 }
 
 h1 {
 
 }
-
-.narc {color: #fff;
-  width: 400px;
-  margin-top: 50px;
-  margin-left: 20px;
-  text-align: justify;
+#ncircle {
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  background-color: #000;
+  margin-left: 100px;
+  margin-top: 25px;
 }
 
-.mach {color: #fff;
-  width: 400px;
-  margin-top: 50px;
-  margin-left: 20px;
-  text-align: justify;
-}
-
-.psych {color: #fff;
-  width: 400px;
-  margin-top: 50px;
-  margin-left: 20px;
-  text-align: justify;
-}
-
-.quest {
+.ntext {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
   color: #fff;
+  text-align: center;
+  position: absolute;
+  max-width: 155px;
+  max-height: 155px;
+  top: 100px;
+  margin-left: 10px;
+}
+
+#mcircle {
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  background-color: #fff;
+  margin-left: 200px;
+}
+
+.mtext {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #000;
+  text-align: center;
+  position: absolute;
+  max-width: 155px;
+  max-height: 155px;
+  top: 265px;
+  margin-left: 10px;
+}
+
+#pcircle {
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  background-color: #000;
+  margin-left: 100px;
+}
+
+.ptext {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  max-width: 155px;
+  max-height: 155px;
+  top: 450px;
+  margin-left: 10px;
+}
+
+#qcircle {
+  border-radius: 50%;
+  width: 175px;
+  height: 175px;
+  background-color: #fff;
+  margin-left: 200px;
+}
+
+.qtext {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #CF0808;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+  position: absolute;
+  max-width: 155px;
+  max-height: 155px;
+  top: 625px;
+  margin-left: 10px;
 }
 
 button {
-  background-color: white;
-      border: 2px solid red;
+      background-color: white;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
       color: black;
-      padding: 15px 32px;
       text-align: center;
       text-decoration: none;
-      display: inline-block;
+      font-family: 'Roboto', sans-serif;
       font-size: 16px;
-      float: right;
-      margin: 200px;
+      text-transform: uppercase;
+      position: absolute;
+      top: 350px;
+      left: 950px;
 }
 
 button:hover {
-  background-color: red;
+  background-color: #CF0808;
   color: #fff;
   transition-duration: 0.4s;
 }
