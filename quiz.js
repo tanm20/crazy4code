@@ -71,13 +71,13 @@
     RESULTS["trait1&trait3"] = {
         name: "High Narcissism",
         text:"You're such a narcissist",
-        image: "narc.jpg",
+        image: "narc 2.jpg",
         text: "Individuals who score high on narcissism display grandiosity, entitlement, dominance, and superiority."
     };
 
     RESULTS["trait1&trait2"] = {
         name: "High Machiavellianism",
-        image: "mach.jpg",
+        image: "mach 2.jpg",
         text: "People who score high on this trait are cynical (in an amoral self-interest sense, not in a doubtful or skeptical sense), unprincipled, believe in interpersonal manipulation as the key for life success, and behave accordingly"
     };
 
