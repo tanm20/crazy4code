@@ -93,19 +93,19 @@
 }
 
 #button1 {
-      background-color: white;
-      border-radius: 50%;
-      width: 100px;
-      height: 100px;
-      color: black;
-      text-align: center;
-      text-decoration: none;
-      font-family: 'Roboto', sans-serif;
-      font-size: 16px;
-      text-transform: uppercase;
-      position: absolute;
-      top: 350px;
-      left: 950px;
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 350px;
+  left: 950px;
 }
 
 #button1:hover {
@@ -114,33 +114,35 @@
   transition-duration: 0.4s;
 }
 
-
 /*** quiz page css ***/
+
 #quizbody {
   background-color: black;
 }
 
-#result_div{
+#result_div {
   max width: 250px;
   margin-top: 200px;
   margin-left: 75px;
 }
 
-#result_img{
+#result_img {
   max-width: 250px;
 }
 
-#result_text{
+#result_text {
   color: white;
   max-width: 250px;
   text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-h4 {font-size: 20px;
-color: white;
-font-family: 'Open Sans Condensed', sans-serif;
-text-transform: uppercase;
-margin-left: 50px;
+h4 {
+  font-size: 20px;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+  margin-left: 50px;
 }
 
 h1 {
@@ -158,19 +160,19 @@ ul {
 }
 
 #button2 {
-      background-color: white;
-      border-radius: 50%;
-      width: 100px;
-      height: 100px;
-      color: black;
-      text-align: center;
-      text-decoration: none;
-      font-family: 'Roboto', sans-serif;
-      font-size: 16px;
-      text-transform: uppercase;
-      position: absolute;
-      top: 1450px;
-      left: 650px;
+  background-color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 1450px;
+  left: 650px;
 }
 
 #button2:hover {

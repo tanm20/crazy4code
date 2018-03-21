@@ -1,97 +1,104 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>What's your darkside?</title>
+  <title>What's your darkside?</title>
 
-<link rel="stylesheet" type="text/css" href="site.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Creepster|Nothing+You+Could+Do|Sancreek" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="site.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Creepster|Nothing+You+Could+Do|Sancreek" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 
-<body id="quizbody">
-<center><form name="quizform">
+  <body id="quizbody">
+    <center>
+      <form name="quizform">
 
-<h1>Discover your darkside</h1>
-
-
-<h4> Select the statement that best describes you...</h4>
-<ul style="list-style-type:none">
-<li><label for="q1-1"><input type="radio" name="q1" value="trait1" id="q1-1" checked><span class="radio"> People see me as a natural leader.</span></label></li>
-<li><label for="q1-2"><input type="radio" name="q1" value="trait2" id="q1-2" ><span class="radio"> It's not wise to tell your secrets.</span></label></li>
-<li><label for="q1-3"><input type="radio" name="q1" value="trait3" id="q1-3"> <span class="radio">I like to get revenge on authorities.</span></label></li>
-</ul>
+        <h1>Discover your darkside</h1>
 
 
-<h4>Select the statement that best describes you...</h4>
-<ul style="list-style-type:none">
-<li><label for="q2-1"><input type="radio" name="q2" value="trait1" id="q2-1" checked> <span class="radio">I like being the center of attention.</span> </label></li>
-<li><label for="q2-2"><input type="radio" name="q2" value="trait2" id="q2-2"> <span class="radio">I like to use clever manipulation to get my way.</span> </label></li>
-<li><label for="q2-3"><input type="radio" name="q2" value="trait3" id="q2-3"> <span class="radio">I don't avoid dangerous situations.</span> </label></li>
-</ul>
+        <h4> Select the statement that best describes you...</h4>
+        <ul style="list-style-type:none">
+          <li><label for="q1-1"><input type="radio" name="q1" value="trait1" id="q1-1" checked><span class="radio"> People see me as a natural leader.</span></label></li>
+          <li><label for="q1-2"><input type="radio" name="q1" value="trait2" id="q1-2" ><span class="radio"> It's not wise to tell your secrets.</span></label></li>
+          <li><label for="q1-3"><input type="radio" name="q1" value="trait3" id="q1-3"> <span class="radio">I like to get revenge on authorities.</span></label></li>
+        </ul>
 
 
-<h4>Select the statement that best describes you...</h4>
-<ul style="list-style-type:none">
-<li><label for="q3-1"><input type="radio" name="q3" value="trait1" id="q3-1" checked> <span class="radio">Many group activities tend to be full without me.</span></label></li>
-<li><label for="q3-2"><input type="radio" name="q3" value="trait2" id="q3-2"> <span class="radio">Whatever it takes, you must get the important people on your side.</span> </label></li>
-<li><label for="q3-3"><input type="radio" name="q3" value="trait3" id="q3-3"> <span class="radio">Payback needs to be quick and nasty.</span></label></li>
-</ul>
+        <h4>Select the statement that best describes you...</h4>
+        <ul style="list-style-type:none">
+          <li><label for="q2-1"><input type="radio" name="q2" value="trait1" id="q2-1" checked> <span class="radio">I like being the center of attention.</span> </label></li>
+          <li><label for="q2-2"><input type="radio" name="q2" value="trait2" id="q2-2"> <span class="radio">I like to use clever manipulation to get my way.</span> </label></li>
+          <li><label for="q2-3"><input type="radio" name="q2" value="trait3" id="q2-3"> <span class="radio">I don't avoid dangerous situations.</span> </label></li>
+        </ul>
 
 
-<h4>Select the statement that best describes you...</h4>
-<ul style="list-style-type:none">
-<li><label for="q4-1"><input type="radio" name="q4" value="trait1" id="q4-1" checked><span class="radio"> I know that I am special because everyone keeps telling me so.</span></label></li>
-<li><label for="q4-2"><input type="radio" name="q4" value="trait2" id="q4-2" > <span class="radio">I avoid direct conflict with others because they may be useful in the future. </span></label></li>
-<li><label for="q4-3"><input type="radio" name="q4" value="trait3" id="q4-3" > <span class="radio">People often say I'm out of control.</span></label></li>
-</ul>
-
-<h4>Select the statement that best describes you...</h4>
-<ul style="list-style-type:none">
-<li><label for="q5-1"><input type="radio" name="q5" value="trait1" checked> <span class="radio">I like to get acquainted with important people.</span></label></li>
-<li><label for="q5-2"><input type="radio" name="q5" value="trait2"> <span class="radio">It’s wise to keep track of information that you can use against people later.</span></label></li>
-<li><label for="q5-3"><input type="radio" name="q5" value="trait3"> <span class="radio">It's true that I can be mean to others.</span></label></li>
-</ul>
-
-<h4>Select the statement that best describes you...</h4>
-<ul style="list-style-type:none">
-<li><label for="q6-1"><input type="radio" name="q6" value="trait1" checked><span class="radio"> I don't feel embarrassed if someone compliments me.</span></label></li>
-<li><label for="q6-2"><input type="radio" name="q6" value="trait2"><span class="radio"> You should wait for the right time to get back at people.</span> </label></li>
-<li><label for="q6-3"><input type="radio" name="q6" value="trait3"> <span class="radio">People who mess with me always regret it.</span></label></li>
-</ul>
+        <h4>Select the statement that best describes you...</h4>
+        <ul style="list-style-type:none">
+          <li><label for="q3-1"><input type="radio" name="q3" value="trait1" id="q3-1" checked> <span class="radio">Many group activities tend to be full without me.</span></label></li>
+          <li><label for="q3-2"><input type="radio" name="q3" value="trait2" id="q3-2"> <span class="radio">Whatever it takes, you must get the important people on your side.</span> </label></li>
+          <li><label for="q3-3"><input type="radio" name="q3" value="trait3" id="q3-3"> <span class="radio">Payback needs to be quick and nasty.</span></label></li>
+        </ul>
 
 
-<h4>Select the statement that best describes you...</h4>
-<ul style="list-style-type:none">
-<li><label for="q7-1"><input type="radio" name="q7" value="trait1" checked> <span class="radio">I have been compared to famous people.</span></label></li>
-<li><label for="q7-2"><input type="radio" name="q7" value="trait2"> <span class="radio">There are things you should hide from other people because they don’t need to know.</span> </label></li>
-<li><label for="q7-3"><input type="radio" name="q7" value="trait3"><span class="radio">I have gotten into trouble with the law.</span></label></li>
-</ul>
+        <h4>Select the statement that best describes you...</h4>
+        <ul style="list-style-type:none">
+          <li><label for="q4-1"><input type="radio" name="q4" value="trait1" id="q4-1" checked><span class="radio"> I know that I am special because everyone keeps telling me so.</span></label></li>
+          <li><label for="q4-2"><input type="radio" name="q4" value="trait2" id="q4-2" > <span class="radio">I avoid direct conflict with others because they may be useful in the future. </span></label></li>
+          <li><label for="q4-3"><input type="radio" name="q4" value="trait3" id="q4-3" > <span class="radio">People often say I'm out of control.</span></label></li>
+        </ul>
+
+        <h4>Select the statement that best describes you...</h4>
+        <ul style="list-style-type:none">
+          <li><label for="q5-1"><input type="radio" name="q5" value="trait1" checked> <span class="radio">I like to get acquainted with important people.</span></label></li>
+          <li><label for="q5-2"><input type="radio" name="q5" value="trait2"> <span class="radio">It’s wise to keep track of information that you can use against people later.</span></label></li>
+          <li><label for="q5-3"><input type="radio" name="q5" value="trait3"> <span class="radio">It's true that I can be mean to others.</span></label></li>
+        </ul>
+
+        <h4>Select the statement that best describes you...</h4>
+        <ul style="list-style-type:none">
+          <li><label for="q6-1"><input type="radio" name="q6" value="trait1" checked><span class="radio"> I don't feel embarrassed if someone compliments me.</span></label></li>
+          <li><label for="q6-2"><input type="radio" name="q6" value="trait2"><span class="radio"> You should wait for the right time to get back at people.</span> </label></li>
+          <li><label for="q6-3"><input type="radio" name="q6" value="trait3"> <span class="radio">People who mess with me always regret it.</span></label></li>
+        </ul>
 
 
-<h4>Select the statement that best describes you...</h4>
-<ul style="list-style-type:none">
-<li><label for="q8-1"><input type="radio" name="q8" value="trait1" checked> <span class="radio">I'm not an average person.</span></label></li>
-<li><label for="q8-2"><input type="radio" name="q8" value="trait2"> <span class="radio">Make sure your plans benefit you, not others.</span> </label></li>
-<li><label for="q8-3"><input type="radio" name="q8" value="trait3"> <span class="radio">I enjoy having sex with people I hardly know.</span></label></li>
-</ul>
+        <h4>Select the statement that best describes you...</h4>
+        <ul style="list-style-type:none">
+          <li><label for="q7-1"><input type="radio" name="q7" value="trait1" checked> <span class="radio">I have been compared to famous people.</span></label></li>
+          <li><label for="q7-2"><input type="radio" name="q7" value="trait2"> <span class="radio">There are things you should hide from other people because they don’t need to know.</span> </label></li>
+          <li><label for="q7-3"><input type="radio" name="q7" value="trait3"><span class="radio">I have gotten into trouble with the law.</span></label></li>
+        </ul>
 
 
-<h4>Select the statement that best describes you...</h4>
-<ul style="list-style-type:none">
-<li><label for="q9-1"><input type="radio" name="q9" value="trait1" checked><span class="radio"> I insist on getting the respect I deserve.</span></label></li>
-<li><label for="q9-2"><input type="radio" name="q9" value="trait2"> <span class="radio">Most people can be manipulated. </span></label></li>
-<li><label for="q9-3"><input type="radio" name="q9" value="trait3"> <span class="radio">I'll say anything to get what I want.</span></label></li>
-</ul>
-
-<p><center><button type="submit" href="#results" id="button2">Get Results</button></center></p>
+        <h4>Select the statement that best describes you...</h4>
+        <ul style="list-style-type:none">
+          <li><label for="q8-1"><input type="radio" name="q8" value="trait1" checked> <span class="radio">I'm not an average person.</span></label></li>
+          <li><label for="q8-2"><input type="radio" name="q8" value="trait2"> <span class="radio">Make sure your plans benefit you, not others.</span> </label></li>
+          <li><label for="q8-3"><input type="radio" name="q8" value="trait3"> <span class="radio">I enjoy having sex with people I hardly know.</span></label></li>
+        </ul>
 
 
-<div id="result_div" style="display:none;">
-<img id="result_image" alt="">
-<p id="result_text"></p></div>
+        <h4>Select the statement that best describes you...</h4>
+        <ul style="list-style-type:none">
+          <li><label for="q9-1"><input type="radio" name="q9" value="trait1" checked><span class="radio"> I insist on getting the respect I deserve.</span></label></li>
+          <li><label for="q9-2"><input type="radio" name="q9" value="trait2"> <span class="radio">Most people can be manipulated. </span></label></li>
+          <li><label for="q9-3"><input type="radio" name="q9" value="trait3"> <span class="radio">I'll say anything to get what I want.</span></label></li>
+        </ul>
 
-</form></center>
-<script src="quiz.js"></script>
-</body>
+        <p>
+          <center><button type="submit" href="#results" id="button2">Get Results</button></center>
+        </p>
+
+
+        <div id="result_div" style="display:none;">
+          <img id="result_image" alt="">
+          <p id="result_text"></p>
+        </div>
+
+      </form>
+    </center>
+    <script src="quiz.js"></script>
+  </body>
+
 </html>
