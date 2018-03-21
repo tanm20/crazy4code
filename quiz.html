@@ -3,13 +3,14 @@
 <head>
 <title>What's your darkside?</title>
 
-<link rel="stylesheet" type="text/css" href="quiz.css">
-<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="site.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Creepster|Nothing+You+Could+Do|Sancreek" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
 
-<body>
-<form name="quizform">
+<body id="quizbody">
+<center><form name="quizform">
 
 <h1>Discover your darkside</h1>
 
@@ -83,14 +84,14 @@
 <li><label for="q9-3"><input type="radio" name="q9" value="trait3"> <span class="radio">I'll say anything to get what I want.</span></label></li>
 </ul>
 
-<p><center><button type="submit" href="#results">Get Results</button></center></p>
+<p><center><button type="submit" href="#results" id="button2">Get Results</button></center></p>
 
 
 <div id="result_div" style="display:none;">
 <img id="result_image" alt="">
 <p id="result_text"></p></div>
 
-</form>
+</form></center>
 <script src="quiz.js"></script>
 </body>
 </html>
