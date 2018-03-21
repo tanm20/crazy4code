@@ -130,11 +130,26 @@ button:hover {
 
 }
 
-h4 {
-
+h4 {font-size: 25px;
+color: white;
+font-style: italics;
+text-align: Left;
+font-family: 'Nothing You Could Do', cursive;
 }
 
-h1 { font-size: 50px;
-    text-align: center;
-
+h1 {
+  font-family: 'Creepster', cursive;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 2px 2px #ff0000;
+  letter-spacing: 20px;
 }
+
+h3  {
+font-size: 25px;
+color: white;
+font-style: italics;
+text-align: center;
+font-family: 'Nothing You Could Do', cursive
+}
+
