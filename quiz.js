@@ -70,6 +70,7 @@
 
     RESULTS["trait1&trait3"] = {
         name: "High Narcissism",
+        text:"You're such a narcissist",
         image: "narc.jpg",
         text: "Individuals who score high on narcissism display grandiosity, entitlement, dominance, and superiority."
     };

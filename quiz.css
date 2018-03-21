@@ -7,18 +7,73 @@ body {
   font-family: 'Shadows Into Light', cursive;
 font-family: 'Nothing You Could Do', cursive;
 }
-h4 {
-font-size: 25px;
-color: white;
-font-style: italics;
-text-align: center;
-font-family: 'Nothing You Could Do', cursive;
-}
+
+
 h1 {
   font-family: 'Creepster', cursive;
   font-size: 50px;
   text-align: center;
+  text-shadow: 2px 2px #ff0000;
+  letter-spacing: 20px;
 }
+h3  {
+font-size: 25px;
+color: white;
+font-style: italics;
+text-align: center;
+font-family: 'Nothing You Could Do', cursive}
+
+h4 {
+font-size: 25px;
+color: white;
+font-style: italics;
+text-align: Left;
+font-family: 'Nothing You Could Do', cursive;
+}
+
+ .section {
+   padding: 100px;
+   padding-left: 150px;
+ }
+ .section input[type="radio"]{display:none;}
+ .container {
+   margin-bottom: 10px;}
+
+ .container label {
+   position: relative;}
+
+ /* Base styles for spans */
+ .container span::before,
+ .container span::after {
+   content: '';
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   margin: auto;}
+
+ /* Radio buttons */
+ .container span.radio:hover {
+   cursor: pointer; }
+
+ .container span.radio::before {
+   left: -52px;
+   width: 45px;
+   height: 25px;
+   background-color: #A8AAC1;
+   border-radius: 50px;}
+
+ .container span.radio::after {
+   left: -49px;
+   width: 17px;
+   height: 17px;
+   border-radius: 10px;
+   background-color: #6C788A;
+   transition: left .25s, background-color .25s;}
+
+ input[type="radio"]:checked + label span.radio::after {
+   left: -27px;
+   background-color: #EBFF43;}
+
 button[type="submit"]{
   color: black;
   background: white;
@@ -35,17 +90,19 @@ button:hover {
 }
 
 .result {border: 1px solid gray;
+  height:
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 70;
   background-color: ##000000;
   text-align: center;
   padding: 25px;}
 
-.footer{margin-left:auto;}
+
+
 .btn {background-color:red;margin:auto;}
 .btn-success{background-color:red; border-color:red; padding:3px; }
-.btn-lg {color:white}
-.glyphicon {color:white}
-.btn {color:white}
-.glyphicon-print {color:white}
+.btn-lg {color:white;margin:auto;}
+.glyphicon {color:white;margin:auto;}
+.btn {color:white;margin:auto;}
+.glyphicon-print {color:white;margin:auto;}
