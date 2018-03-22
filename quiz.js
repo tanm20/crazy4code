@@ -4,14 +4,14 @@
     codes to link to it.
 
     *************************************************************************/
-    var QUIZ_URL = "/quiz.html";
+    var QUIZ_URL = "https://github.com/tanm20/crazy4code/blob/master/quiz.html";
 
     /*************************************************************************
     This should be the full address to whatever folder on your website
     directly contains your result images, ending in a forward slash.
 
     *************************************************************************/
-    var RESULTS_FOLDER_URL = "/results/";
+    var RESULTS_FOLDER_URL = "https://github.com/tanm20/crazy4code/tree/master/results/";
 
     /*************************************************************************
     The pairs between brackets should be the names of personality traits that
