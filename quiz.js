@@ -70,19 +70,19 @@
 
     RESULTS["trait1&trait3"] = {
         name: "High Narcissism",
-        image: "narc.jpg",
+        image: "/narc.jpg",
         text: "Individuals who score high on narcissism display grandiosity, entitlement, dominance, and superiority."
     };
 
     RESULTS["trait1&trait2"] = {
         name: "High Machiavellianism",
-        image: "mach.jpg",
+        image: "/mach.jpg",
         text: "People who score high on machiavellianism are characterized by manipulation and exploitation of others, a cynical disregard for morality, and a focus on self-interest and deception."
     };
 
     RESULTS["trait2&trait3"] = {
         name: "High Psychopathy",
-        image: "psych.jpg",
+        image: "/psych.jpg",
         text: "Individuals who score high on psychopathy show low levels of empathy combined with high levels of impulsivity and thrill-seeking"
     };
 
