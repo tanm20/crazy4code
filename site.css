@@ -121,13 +121,12 @@
 }
 
 #result_div {
-  max width: 250px;
   margin-top: 200px;
   margin-left: 75px;
 }
 
 #result_img {
-  max-width: 250px;
+  
 }
 
 #result_text {
