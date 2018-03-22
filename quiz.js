@@ -11,7 +11,7 @@
     directly contains your result images, ending in a forward slash.
 
     *************************************************************************/
-    var RESULTS_FOLDER_URL = "/results";
+    var RESULTS_FOLDER_URL = "/results/";
 
     /*************************************************************************
     The pairs between brackets should be the names of personality traits that
