@@ -4,7 +4,7 @@
     codes to link to it.
 
     *************************************************************************/
-    var QUIZ_URL = "https://github.com/tanm20/crazy4code/blob/master/results_page.html";
+    var QUIZ_URL = "https://github.com/tanm20/crazy4code/blob/master/quiz.html";
 
     /*************************************************************************
     This should be the full address to whatever folder on your website
