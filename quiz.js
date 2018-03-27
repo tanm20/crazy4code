@@ -11,7 +11,7 @@
     directly contains your result images, ending in a forward slash.
 
     *************************************************************************/
-    var RESULTS_FOLDER_URL = "https://github.com/tanm20/crazy4code/";
+    var RESULTS_FOLDER_URL = "https://github.com/tanm20/crazy4code/tree/master/results/";
 
     /*************************************************************************
     The pairs between brackets should be the names of personality traits that
