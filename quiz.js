@@ -70,17 +70,17 @@
 
     RESULTS["trait1&trait3"] = {
         name: "High Narcissism",
-        text: "<img src="https://github.com/tanm20/crazy4code/results/narc.jpg"><br>Individuals who score high on narcissism display grandiosity, entitlement, dominance, and superiority."
+        text: "<img src="https://github.com/tanm20/crazy4code/tree/master/results/narc.jpg"><br>Individuals who score high on narcissism display grandiosity, entitlement, dominance, and superiority."
     };
 
     RESULTS["trait1&trait2"] = {
         name: "High Machiavellianism",
-        text: "<img src="https://github.com/tanm20/crazy4code/results/mach.jpg"><br>People who score high on machiavellianism are characterized by manipulation and exploitation of others, a cynical disregard for morality, and a focus on self-interest and deception."
+        text: "<img src="https://github.com/tanm20/crazy4code/tree/master/results/mach.jpg"><br>People who score high on machiavellianism are characterized by manipulation and exploitation of others, a cynical disregard for morality, and a focus on self-interest and deception."
     };
 
     RESULTS["trait2&trait3"] = {
         name: "High Psychopathy",
-        text: "<img src="https://github.com/tanm20/crazy4code/results/psych.jpg"><br>Individuals who score high on psychopathy show low levels of empathy combined with high levels of impulsivity and thrill-seeking"
+        text: "<img src="https://github.com/tanm20/crazy4code/tree/master/results/psych.jpg"><br>Individuals who score high on psychopathy show low levels of empathy combined with high levels of impulsivity and thrill-seeking"
     };
 
 
