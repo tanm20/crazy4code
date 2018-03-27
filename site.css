@@ -121,8 +121,9 @@
 }
 
 #result_div {
-  margin-top: 200px;
-  margin-left: 75px;
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 1000px;
 }
 
 #result_text {
@@ -130,6 +131,10 @@
   max-width: 250px;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
+  border-style: solid;
+  border-color: #CF0808;
+  border-width: 1px;
+  padding: 5px;
 }
 
 h4 {
@@ -178,12 +183,16 @@ ul {
 
 .share {
   margin-left: 20px;
-  position: absolute;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 .fa {
     padding: 10px;
     font-size: 30px;
-    width: 20px;
+    width: 15px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -206,4 +215,21 @@ ul {
 .fa-instagram {
   background: #ED0C5E;
   color: white;
+}
+
+/**** scrollbar ****/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #CF0808;
 }
